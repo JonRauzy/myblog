@@ -1,5 +1,6 @@
 <?php
 
+$title = "Accueil";
 include_once '../view/include/header.php';
 
 ?>
