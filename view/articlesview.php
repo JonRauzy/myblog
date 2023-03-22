@@ -5,12 +5,15 @@ include_once '../view/include/header.php';
 
 ?>
 
-<?php foreach($articles as $item):?>
-    <p><?= $item-> articleID?></p>
-    <p><?= $item -> articleTitle ?></p>
-    <p><?= $item -> articleContent?></p>
-    <p><?= $item -> articleDate?></p>
-<?php endforeach;?>
+<div class="container-article">
+    <?php foreach($articles as $item):?>
+        <div class="article">
+            <h2><?= $item -> articleTitle ?></h2>
+            <p><?= $item -> articleContent?></p>
+            <p><?= $item -> articleDate?></p>
+        </div>
+    <?php endforeach;?>
+</div>
 
 <?php
 

@@ -11,10 +11,14 @@
 <body>
 
 <div class="nav">
-    <nav>
+   
         <a href="?p=accueil">accueil</a>
         <a href="?p=articles">articles</a>
-    </nav>
+        <a href="?p=accueil">accueil</a>
+        <a href="?p=articles">articles</a>
+        <a href="?p=accueil">accueil</a>
+        <a href="?p=articles">articles</a>
+ 
 </div>
 
-<h1>My Blog</h1>
+<h1><?= $title ?></h1>
