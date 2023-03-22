@@ -1,20 +1,16 @@
 <?php
-
 $title = "Accueil";
 include_once '../view/include/header.php';
-
 ?>
 
-<h2>Accueil</h2>
+<div class="container-home">
+    <h2>Ici c'est chez nous</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nobis minima vel consequuntur qui possimus ad earum, sequi ipsa. Excepturi unde, porro officia magnam ratione minima laudantium voluptates ut sunt.</p>
+    <img src="./asset/img/fleurs.png" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum a doloremque atque minus quia error minima cum porro sint, commodi consequuntur, facere unde dignissimos quisquam alias tempora asperiores veniam!</p>
+</div>
 
-<?php foreach($users as $item):?>
-    <p><?= $item-> userID?></p>
-    <p><?= $item -> userName?></p>
-    <p><?= $item -> userLogin?></p>
-    <p><?= $item -> userPassword?></p>
-<?php endforeach;?>
 
 
 <?php
-
 include_once '../view/include/footer.php';

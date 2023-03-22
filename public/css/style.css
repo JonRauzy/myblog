@@ -5,5 +5,52 @@
 }
 
 body {
-    background-color: red;
+    background: url(../asset/img/pleur.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 115, 0);
+    font-size: 2rem;
+    margin: 1rem;
+}   
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    width: 85%;
+    margin: auto;
+    background-color: rgba(0, 128, 0, 0.185);
+    display: flex;
+    justify-content: space-between;   
+    box-shadow: 0px 5px 5px rgba(0, 128, 0, 0.150);
+}
+
+
+.container-article, .container-home {
+    width: 80%;
+    margin: auto;
+}
+
+.container-home img {
+    width: 30vw;
+    box-shadow: 0px 5px 5px black;
+    background-color: rgba(255, 0, 0, 0.205);
+}
+
+.container-article h2 {
+    padding: 1rem 0;
+}
+.container-article p {
+    padding-bottom: 1rem;
+}
+
+
+.footer {
+    text-align: center;
 }
