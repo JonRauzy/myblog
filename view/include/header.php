@@ -7,6 +7,7 @@
     <title><?= $title ?></title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 <body>
 
