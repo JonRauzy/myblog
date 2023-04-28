@@ -1,6 +1,6 @@
 <?php
 function sqlArticles(pdo $db) : array|null{
-$sqlArticles = $db->prepare('SELECT * FROM blogarticles');
+$sqlArticles = $db->prepare('SELECT * FROM blogarticles ORDER BY blogDate DESC');
  try {
     $sqlArticles->execute();
     $dataArticles = $sqlArticles->fetchAll();

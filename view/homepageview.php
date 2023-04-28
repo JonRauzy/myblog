@@ -1,6 +1,8 @@
 <?php
+
 $title = "Accueil";
 include_once '../view/include/header.php';
+
 ?>
 
 <div class="container-home">
@@ -13,4 +15,5 @@ include_once '../view/include/header.php';
 
 
 <?php
+
 include_once '../view/include/footer.php';
